@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренди Одягу 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Тренди Одягу 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#trends">Тренди</a></li>
+                <li><a href="#categories">Категорії</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Ласкаво просимо!</h2>
+        <p>Дізнайтеся про найгарячіші тренди моди 2024 року.</p>
+    </section>
+
+    <section id="trends">
+        <h2>Актуальні тренди</h2>
+        <div class="slider">
+            <div class="slides">
+                <img src="trend1.jpg" alt="Тренд 1">
+                <img src="trend2.jpg" alt="Тренд 2">
+                <img src="trend3.jpg" alt="Тренд 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="categories">
+        <h2>Категорії</h2>
+        <div class="categories">
+            <div class="category">Вуличний стиль</div>
+            <div class="category">Офіційний одяг</div>
+            <div class="category">Casual</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Fashion Trends</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
